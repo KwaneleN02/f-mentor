@@ -1,0 +1,121 @@
+header
+{
+    height: 40vh;
+    background-image: url(../images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    min-width: 100%;
+    /* margin-bottom: 1rem; */
+}
+
+header > img
+{
+    cursor: pointer;
+}
+
+.todo-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -8rem auto;
+    min-width: 100%;
+}
+
+.input
+{
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+
+input 
+{
+    border-bottom: none;
+    outline: none;
+    color: #000000;
+}
+
+.input > i 
+{
+ color: green;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.todo-list
+{
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.todo-list > li
+{
+    border-bottom: .3px solid rgba(128, 128, 128, 0.233);
+    padding: 10px;
+    display: flex;
+    color: grey;
+    justify-content: space-between;
+}
+
+li > i
+{
+    display: flex;
+    margin-left: auto;
+    color: red;
+    cursor: pointer;
+}
+
+h6
+{
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 1rem;
+    font-size: 30px;
+}
+
+.sun
+{
+    display: none;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 74px) and (max-width: 912px)
+{
+
+    .content-container
+    {
+        padding: 20px;
+    }
+    .input, .todo-list
+    {
+        width: 100%;
+    }
+}
+
