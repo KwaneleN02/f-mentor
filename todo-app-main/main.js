@@ -77,7 +77,7 @@ function addList()
 
 function darkMode()
 {
-    header.style.backgroundImage = 'url(../images/bg-desktop-dark.jpg)';
+    header.style.backgroundImage = 'url(./images/bg-desktop-dark.jpg)';
     sun.style.display = 'block';
     moon.style.display = 'none';
     body.style.background = '#263238';
@@ -88,7 +88,7 @@ function darkMode()
 
 function lightMode()
 {
-    header.style.backgroundImage = 'url(../images/bg-desktop-light.jpg)';
+    header.style.backgroundImage = 'url(./images/bg-desktop-light.jpg)';
     sun.style.display = 'none';
     moon.style.display = 'block';
     body.style.background = '#ffff';
