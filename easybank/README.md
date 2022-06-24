@@ -1,3 +1,6 @@
+Site Link: https://kwanelen02.github.io/f-mentor/easybank/index.html
+
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
