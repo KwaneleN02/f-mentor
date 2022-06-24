@@ -1,0 +1,489 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+nav
+{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.091);
+    z-index: 10;
+}
+
+.open-ham, .close-ham
+{
+    display: none;
+}
+
+.nav-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links > a
+{
+    color: rgba(0, 0, 0, 0.433);
+}
+
+.invitation
+{
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    color: white;
+}
+
+/* End of header */
+
+.first-content
+{
+    display: flex;
+    align-items: center;
+    top: 0;
+    margin-top: 5rem;
+    padding: 20px;
+    z-index: 1;
+    gap: 5rem;
+}
+
+.digital-banking
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 45%;
+    margin-left: 13rem;
+    padding: 20px;
+    
+
+}
+.digital-banking >  h1
+{
+    font-size: 50px;
+    width: 60%;
+}
+
+.digital-banking > p
+{
+    width: 80%;
+    padding-left: 5rem;
+    line-height: 1.5rem;
+}
+.digital-banking > button
+{
+    margin-left: -22rem;
+}
+
+.phones
+{
+  
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-position:calc(100% - 90%);
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 7.3rem;
+    padding-top: 2rem;
+    margin: -10rem -20rem 0 0;
+    width: 40%;
+    z-index: 2;
+    overflow-x: hidden;
+
+}
+
+.phones > img
+{
+    overflow-x: hidden;
+}
+
+/* End of First Section */
+.second-content
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100vw;
+    gap: 5rem;
+    margin-top: -7rem;
+    background-color: rgba(128, 128, 128, 0.062);
+}
+
+.heading
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.heading >  h6
+{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.heading > p
+{
+    width: 45%;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.icon
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+    padding-bottom: 20px; 
+}
+
+
+.icon > p
+{
+    width: 85%;
+}
+
+.icon > img
+{
+    width: 80px;
+}
+
+/* End of Second Content */
+.final-content
+{
+    padding-top: 5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    background-color: rgba(223, 223, 223, 0.062) ;
+    margin-bottom: 5rem;
+}
+
+.img
+{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.images
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 5px;
+    background-color: rgba(233, 233, 233, 0.215);
+    padding-bottom: 20px;
+}
+
+.currency
+{
+   background-image: url(../images/image-currency.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   width: 300px;
+
+}
+.restaurant
+{
+   background-image: url(../images/image-restaurant.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   width: 300px;
+}
+.airplane
+{
+   background-image: url(../images/image-plane.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   width: 300px;
+
+}
+.sprinkles
+{
+   background-image: url(../images/image-confetti.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   width: 300px;
+}
+
+.attribution
+{
+    color: rgba(128, 128, 128, 0.684);
+    padding: 20px;
+}
+.images > strong
+{
+    width: 70%;
+    padding:5px 20px 0 20px ;
+}
+
+.article 
+{
+    width: 90%;
+    padding:5px 20px 0 20px ; 
+}
+
+/* End of Final Section */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: hsl(233, 26%, 24%);
+    color: white; 
+}
+
+.footer-links
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-links > a
+{
+    color: white;
+}
+.social-media
+{
+    display: flex;
+    gap: .5rem;
+}
+
+/* End */
+
+
+@media screen and (min-width: 50px) and (max-width: 1280px) 
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links
+    {
+        display: none;
+        width: 80%;
+        flex-direction: column; 
+        height: 40vh;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        margin-top: 25rem;
+    }
+
+    .nav-links > a
+    {
+        color: black;
+        font-weight: 700;
+    }
+
+    .nav-button > button 
+    {
+        display: none;
+    }
+
+    .open-ham
+    {
+        display: block;
+        cursor: pointer;
+    }
+
+    .close-ham
+    {
+        display: none;
+    }
+    
+    /* End of Header */
+
+   .first-content
+   {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+
+   } 
+
+   .digital-banking
+   {
+    width: 100%;
+    padding: none;
+    padding: 0;
+    margin: 0;
+   }
+
+   .digital-banking > h1
+   {
+    width: 105%;
+    text-align: center;
+    padding: 0;
+    font-weight: 400;
+   }
+   .digital-banking > p
+    {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .digital-banking > button 
+    {
+        margin:auto;
+    }
+
+   .phones
+   {
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-position:center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+   }
+
+   
+
+   /* End of first Section */
+
+   .second-content
+   {
+    margin: 0; 
+   }
+
+   .heading
+   {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+   }
+
+   .heading > p
+   {
+    width: 100%;
+    font-size: 18px;
+   }
+
+   .icons
+   {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+   }
+
+   .icon
+   {
+    width: 100%;
+    align-items: center;
+   }
+
+
+   .icon > p 
+   {
+    width: 100%;
+    text-align: center;
+   }
+
+   /* End of Second section */
+
+   /* Final Section */
+
+   .final-content
+   {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+   }
+
+   .heading > h6
+   {
+    width: 100%;
+    margin-top: 3rem;
+   }
+
+   .img
+   {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+   }
+
+   .images
+   {
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+   }
+
+   .currency, .airplane, .restaurant, .sprinkles
+   {
+    height: 200px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   }
+   .attribution, .images > strong, .article
+   {
+    width: 100%;
+   }
+
+   /* End of final Section */
+
+   footer
+   {
+    flex-direction: column;
+    gap: 30px;
+   }
+}
+
