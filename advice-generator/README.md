@@ -1,3 +1,12 @@
+Link to the site: https://kwanelen02.github.io/f-mentor/advice-generator/index.html
+
+This is a Front-end Mentor Challenge to create an advice generator app. 
+
+Tech used: ES6 Vanilla JS, Materialize, Fetch API, Media Queries for responsive design. 
+
+
+
+
 # Frontend Mentor - Advice generator app
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
