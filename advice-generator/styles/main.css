@@ -70,6 +70,14 @@ hr
   background-color:  hsl(150, 100%, 66%);
 }
 
+.btn-floating:hover
+{
+    box-shadow: 1px -1px 30px hsl(150, 100%, 66%);
+}
+
+
+/* Mobile design */
+
 @media only screen and (min-width: 75px) and (max-width:720px) 
 {
     .card 
